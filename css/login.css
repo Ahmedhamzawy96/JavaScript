@@ -1,0 +1,30 @@
+body{
+    background-image: url("../images/log.jpg");
+    background-size: cover;
+    height: 100vh;
+} 
+button[type="submit"]{
+    color: rgb(239, 237, 237);
+    background-color: #e79c06fd !important;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+
+button[type="submit"]:hover{
+    background-color: #80A4A0 !important;
+    border-color: #80A4A0 !important;
+}
+.Login_Container{
+    background: rgba(199, 168, 132, 0.719);
+    border-radius: 15px;
+    width: 50%;
+}
+h3{
+    font-size: xx-large;
+}
+.selectinput
+{
+    margin-top: 30px !important;
+    width: 93%;
+}

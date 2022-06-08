@@ -1,0 +1,122 @@
+/* Global Rules  */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --main-color:#f7ce21;
+}
+body {
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: contain;
+    min-height: 100vh;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Small */
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
+}
+/* Medium */
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}
+}
+/* Large */
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}
+/* End of Global Rules  */
+/* start Cards Wrapper */
+.cards__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.technical_card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    padding: 30px 20px;
+    margin: 40px 10px;
+    max-width: 25%;
+}
+.technical_card__wrapper .main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.technical_card__wrapper .img__wrapper{
+    margin-bottom: 30px;
+}
+.technical_card__wrapper .img__wrapper img{
+    width: 100%;
+    border-radius: 50%;
+}
+.technical_card__wrapper .info_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.technical_card__wrapper .info_wrapper h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.technical_card__wrapper .info_wrapper p{
+    font-size: 18px;
+}
+.technical_card__wrapper .availability__icon{
+    margin-bottom: 20px;
+}
+.technical_card__wrapper .availability__icon .available{
+    width: 50px
+}
+.technical_card__wrapper .availability__icon .not-available{
+    width: 50px;
+    display:none;
+}
+.technical_card__wrapper #request{
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container #more {
+    width: 50%;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* End Cards Wrapper */

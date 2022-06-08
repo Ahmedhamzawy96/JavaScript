@@ -1,0 +1,199 @@
+/*********************            Home Page           **************/
+/*******************************************************************/
+/*               nav                        */
+.logo
+{
+
+    width: 100px !important;
+   
+    margin-left:40px ;
+}
+
+.list-unstyled
+{
+    margin: 0 !important;
+}
+nav .navcontent ul li 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+}
+nav .navcontent ul li a
+{
+    font-family: 'Source Sans Pro', sans-serif;
+   color:  #495057;
+   text-decoration: none;
+}
+nav .navcontent ul li a:hover ,nav .navcontent ul li a.active
+{
+    transition: all .5s;
+    color:#f25454 ;
+}
+/*******************************************************************/
+
+/*                       Home Section                             */
+
+@keyframes img1trans {
+    from
+    {
+        top :100px;
+        left: 0px;
+    }
+    to
+    {
+        top: 100px;
+        left: 22%;
+    }
+}
+@keyframes img2trans {
+    from
+    {
+        top :350px;
+        right: 0px;
+    }
+    to
+    {
+        top: 350px;
+        right: 22%;
+    }
+}
+@keyframes img3trans {
+    from
+    {
+        top :640px;
+        left: 0px;
+    }
+    to
+    {
+        top: 640px;
+        left: 20%;
+    }
+}
+
+.yellowdiv
+{
+    background-color: #f7ce21;
+    height: 1200px !important;
+}
+
+.img1
+{
+    width: 567px;
+    height: 344px;
+    top: 100px;
+    left: 22%;
+    z-index: 10;
+    animation:  img1trans 2s;
+}
+.img2
+{
+    width: 526px;
+    height: 318px;
+    top: 350px;
+    right: 22%;
+    z-index: 8;
+    animation:  img2trans 1.5s;
+
+}
+.img3
+{
+    width: 402px;
+    height: 299px;
+    top: 640px;
+    left: 20%;
+    z-index: 9;
+    animation: img3trans 1.5s;
+    
+}
+.homeimg
+{
+    border-radius: 20px !important;
+    
+}
+.img4
+{
+    width: 526px;
+    height: 318px;
+    border-radius: 20px !important;
+    top: 800px;
+    right: 22%;
+    z-index: 11;
+
+}
+.homebtn
+{
+    background-color: 242c53 !important;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+}
+
+/***************************** Service section*****************************************/
+
+.services
+{
+    background-color: #242c53;
+
+}
+.icons
+{
+  width: 50px;
+  height: 50px;
+  top: -50px;
+
+}
+h1,h3,h2,h4,h5,h6
+{
+        font-family: Montserrat,sans-serif;
+}
+
+p
+{
+    font-family: Open Sans,sans-serif;
+}
+.servicecard
+{
+
+    height: 200px;
+}
+.servicecontent :hover
+{
+    cursor: pointer;
+}
+/***************************** Footer section*****************************************/
+
+footer
+{
+    background-color: #686868 !important;
+    color: #b0b0b0 ;
+}
+footer h5
+{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+.footercontent .col-md-3
+{
+    height:200px !important;
+}
+
+/*********************            Services Page           **************/
+/*******************************************************************/
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.border {
+    border: 1px solid #dee2e6!important;
+}
+
+

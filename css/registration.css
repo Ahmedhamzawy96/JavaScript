@@ -1,0 +1,185 @@
+/* Global Rules  */
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+:root {
+    --main-color:#f7ce21;
+}
+body {
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: contain;
+    min-height: 100vh;
+}
+.container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+margin-top:120px;
+}
+/* Small */
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
+}
+/* Medium */
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}
+}
+/* Large */
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}
+/* End of Global Rules  */
+/* start form */
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form__wrapper  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238 238 238 / 80%);
+    padding: 50px 120px;
+}
+form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.general__info {
+    margin-bottom: 60px;
+}
+.general__info legend {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.general__info legend::before {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 70px;
+    top: 50%;
+    left: 20px;
+}
+.general__info legend::After {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 70px;
+    top: 50%;
+    right: 20px;
+}
+.general__info input {
+    width: 500px;
+    margin-top: 20px;
+    
+}
+.specific__info {
+    margin-bottom: 60px;
+    display: none;
+}
+.select__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+#user12, #technical12{
+    width: 30%;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.specific__info legend {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.specific__info legend::before {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 120px;
+    top: 50%;
+    left: 20px;
+}
+.specific__info legend::after {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 120px;
+    top: 50%;
+    right: 20px;
+}
+.specific__info input {
+    width: 500px;
+    margin-top: 20px;
+    
+}
+.specific__info .selection {
+    margin-right: 80px;
+}
+.specific__info select {
+    width: 200px;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border-radius: 4px;
+}
+form input[type=submit] {
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.specific__info .profession {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#alreadyUser {
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+#invalid{
+    margin: 20px 0 10px;
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End form */

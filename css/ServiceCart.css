@@ -1,0 +1,23 @@
+legend {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+legend::before {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 70px;
+    top: 50%;
+    left: 20px;
+}
+legend::After {
+    content: " ";
+    position: absolute;
+    background-color: #202c39;
+    height: 2px;
+    width: 70px;
+    top: 50%;
+    right: 20px;
+}

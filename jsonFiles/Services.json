@@ -1,0 +1,256 @@
+[
+        [
+          {
+            "id": 1,
+            "description": "install flash light/neon lamp 60/120 CM.",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 2,
+            "description": "Remove spot light",
+            "price": "20",
+            "count": 0
+          },
+          {
+            "id": 3,
+            "description": "Install spot lights with creating a hole on gypsum.",
+            "price": "40",
+            "count": 0
+          },
+          {
+            "id": 4,
+            "description": "Install wall mount without breaking",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 5,
+            "description": "Install wall mount with breaking.",
+            "price": "90",
+            "count": 0
+          },
+          {
+            "id": 6,
+            "description": "Install short led strip.",
+            "price": "50",
+            "count": 0
+          },
+          {
+            "id": 7,
+            "description": "Install small assembled chandeliers without installing hanger.",
+            "price": "60",
+            "count": 0
+          },
+          {
+            "id": 8,
+            "description": "Install unassembled crystal chandeliers with out installing hanger.",
+            "price": "100",
+            "count": 0
+          },
+          {
+            "id": 9,
+            "description": "Fix chandeliers.",
+            "price": "55",
+            "count": 0
+          },
+          {
+            "id": 10,
+            "description": "Install spotlight only without set up.",
+            "price": "25",
+            "count": 0
+          }
+
+
+        ],
+        [
+          {
+            "id": 11,
+            "description": "Install two stain less drums with mixer",
+            "price": "200",
+            "count": 0
+          },
+          {
+            "id": 12,
+            "description": "Install wall mounted sink",
+            "price": "195",
+            "count": 0
+          },
+          {
+            "id": 13,
+            "description": "Install toilet seat washer Mixer",
+            "price": "75",
+            "count": 0
+          },
+          {
+            "id": 14,
+            "description": "Change mixer Internal part",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 15,
+            "description": "Change mixer handle",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 16,
+            "description": "Change shower mixer+ head",
+            "price": "100",
+            "count": 0
+          },
+          {
+            "id": 17,
+            "description": "Change Valut",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 18,
+            "description": "Change mixer's pipe",
+            "price": "45",
+            "count": 0
+          },
+          {
+            "id": 19,
+            "description": "Dismantle/ set up the kitchen sink with silicone.",
+            "price": "105",
+            "count": 0
+          },
+          {
+            "id": 20,
+            "description": "Install/ change kitchen sink double drain",
+            "price": "35",
+            "count": 0
+          }
+
+        ],
+        [
+          {
+            "id": 21,
+            "description": "Install/ Uninstall old door frame",
+            "price": "110",
+            "count": 0
+          },
+          {
+            "id": 22,
+            "description": "Install new door frame + hings + handles + kallons.",
+            "price": "295",
+            "count": 0
+          },
+          {
+            "id": 23,
+            "description": "Install handles",
+            "price": "25",
+            "count": 0
+          },
+          {
+            "id": 24,
+            "description": "Install/ remove door kallon.",
+            "price": "55",
+            "count": 0
+          },
+          {
+            "id": 25,
+            "description": "Install door kallon",
+            "price": "35",
+            "count": 0
+          },
+          {
+            "id": 26,
+            "description": "Adjust door",
+            "price": "50",
+            "count": 0
+          },
+          {
+            "id": 27,
+            "description": "Install Accordion door",
+            "price": "110",
+            "count": 0
+          },
+          {
+            "id": 28,
+            "description": "Uninstall Accordion door",
+            "price": "45",
+            "count": 0
+          },
+          {
+            "id": 29,
+            "description": "change kallon internal part",
+            "price": "40",
+            "count": 0
+          },
+          {
+            "id": 30,
+            "description": "open locked door ( lost the key)",
+            "price": "150",
+            "count": 0
+          }
+
+        ],
+        [
+          {
+            "id": 31,
+            "description": "Clean air conditioner & External unit",
+            "price": "300",
+            "count": 0
+          },
+          {
+            "id": 32,
+            "description": "Fix leaking firion (Pipe Welding)",
+            "price": "310",
+            "count": 0
+          },
+          {
+            "id": 33,
+            "description": "Extend air conditioner tube",
+            "price": "420",
+            "count": 0
+          },
+          {
+            "id": 34,
+            "description": "Fix noisy External unit",
+            "price": "360",
+            "count": 0
+          },
+          {
+            "id": 35,
+            "description": "Fix noisy internal unit",
+            "price": "350",
+            "count": 0
+          },
+          {
+            "id": 36,
+            "description": "Fix water leaking",
+            "price": "265",
+            "count": 0
+          },
+          {
+            "id": 37,
+            "description": "Fix leaking firion (Regular Pipe Welding)",
+            "price": "230",
+            "count": 0
+          },
+          {
+            "id": 38,
+            "description": "Install air conditioner external and internal units ((1.5/2.25 hp)",
+            "price": "475",
+            "count": 0
+          },
+          {
+            "id": 39,
+            "description": "Install a hang for the external unit",
+            "price": "105",
+            "count": 0
+          },
+          {
+            "id": 40,
+            "description": "Change External unit compressor and firion recharge",
+            "price": "1100",
+            "count": 0
+          }
+
+        ]  
+
+]

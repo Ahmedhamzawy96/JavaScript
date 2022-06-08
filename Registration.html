@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!-- bootstarp liberary -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- registration css file -->
+    <link rel="stylesheet" href="./Css/registration.css">
+    <link rel="shortcut icon" href="images/logo_1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ab9ed563bc.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="form__wrapper">
+            <!-- start From -->
+            <form  name="registration" method="get">
+                <h1>Registration</h1>
+                <!-- start general Info -->
+                <div class="general__info">
+                    <fieldset>
+                        <legend>General Information</legend>
+                        <label for="username">User Name</label><br>
+                        <input type="text" name="username" id="username" placeholder="UserName">
+                        <div id="invalid"></div>
+                        <label for="fname">First name</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Your First Name">
+                        <div id="invalid"></div>
+                        <label for="lname">Last name</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                        <div id="invalid"></div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="Your E-Mail">
+                        <div id="invalid"></div>
+                        <label for="password">PassWord</label><br>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <div id="invalid"></div>
+                        <label for="re-password">Re-password</label><br>
+                        <input type="password" name="Re-password" id="rePassword" placeholder="Re-Password">
+                        <div id="invalid"></div>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                        <div id="invalid"></div>
+                        <label for="birthdate">Birth Date:</label><br>
+                        <input type="date" id="birthdate" name="birthdate">
+                        <div id="invalid"></div>
+                    </fieldset>
+                </div>
+                <div class="select__buttons">
+                    <input type="button" name="User" id="user12" value="User">
+                    <input type="button" name="Technical" id="technical12" value="Technical" >
+                </div>
+                <!-- end General Info  -->
+                <!-- Start User field -->
+                <div class="specific__info" id="user__info">
+                    <fieldset>
+                        <legend>User</legend>
+                            
+                            <label for="address">Address</label><br>
+                            <input type="text"  id="address" name="address" placeholder="Your Address">
+                            <div id="invalid"></div>
+                            <input type="submit"   onclick="Submitt(this.id,event)" name="Submit" id="userSubmit" value="submit">
+                            
+                    </fieldset>
+                </div>
+                <!-- End User feild  -->
+                <!-- start Technical Field -->
+                <div class="specific__info" id="technical__info">
+                    <fieldset>
+                        <legend>Technical</legend>
+                            <label for="personalid">Personal Id</label><br>
+                            <input type="text" id="personalid" name="personalid" placeholder="Your National Id">
+                            <div id="invalid"></div>
+                            <div class="profession">
+                                <label for="cars" class="selection">Choose a Profession</label>
+                                <select name="Professions" id="Professions">
+                                    <option name="Electrician" value="Electrician">Electrician</option>
+                                    <option name="Plumber" value="Plumber">Plumber</option>
+                                    <option name ="Carpenter" value="Carpenter">Carpenter</option>
+                                    <option name="Air-Conditioner" value="Air-Conditioner">Air Conditioner</option>
+                                
+                                </select>
+                                <div id="invalid"></div>
+                            </div>`
+                            <div class="profession">
+                                <label for="cars" class="selection">Choose Your Experience</label>
+                                <select name="experience" id="experience" >
+                                    <option value="year">1 Year</option>
+                                    <option value="2-Years">2 Years</option>
+                                    <option value="3-Years">3 Years</option>
+                                    <option value="4-Years">4 Years</option>
+                                    <option value="5-Years">5 Years</option>
+                                    <option value="5-Years+">+5 Years</option>
+                                </select>
+                                <div id="invalid"></div>
+                            </div>
+                            <input type="submit" name="Submit" onclick="Submitt(this.id,event)" id="TechSubmit" value="submit">
+                    </fieldset>
+                </div>
+                <!-- End Technical Field -->
+                <a href="./login form.html" id="alreadyUser">Already a User ?</a>
+            </form>
+            <!-- End Form -->
+        </div>
+    </div>
+    <script type="module" src="./js/Regestiration.js"></script>
+</body>
+</html>

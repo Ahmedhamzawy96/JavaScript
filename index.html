@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="images/logo_1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ab9ed563bc.js" crossorigin="anonymous"></script>
+</head> 
+<body >
+    <nav class=" bg-light fixed-top  d-flex align-items-center justify-content-between ">
+
+            <div class=" w-25 ml-5"> <a href=""><img class="logo" src="images/logo_1.png" alt="Logo"></a> </div>
+            <div class="navcontent w-50 ">
+                <ul class="list-unstyled d-flex justify-content-around align-items-center ">
+                    <li  ><a class="active" href=""> Home</a></li>
+                    <li><a href=""> Services</a></li>
+                    <li><a href=""> About US </a></li>
+                    <li><a href="">Contact </a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <Header class=" position-relative overflow-hidden pb-5" >
+        <div class="yellowdiv w-50  float-right"></div>
+        <div class="img1 position-absolute bounceInLeft"> <img class="img-fluid homeimg" src="images/header 1.jpg" alt=""> </div>
+        <div class="img2 position-absolute"><img class="img-fluid homeimg" src="images/header 2.jpg" alt=""></div>
+        <div class="img3 position-absolute "> <img class="img-fluid homeimg" src="images/header 3.jpg" alt=""></div>
+        <div class=" img4 position-absolute bg-white " >
+            <div class="container p-5">
+            <h3 class="text-dark m-3">How Technician Works?</h3>
+            <h6 class="w-75 m-3">With our clear and flexible booking system you just need to choose the 
+                service, pick a suitable appointment and confirm your  order to find
+                one of our highly qualified repairmen at your doorstep. </h6>
+            <button class="btn btn-dark homebtn"> learn more</button>
+        </div>
+        </div>
+    </Header>
+
+    <h1 class="text-center py-5 my-5">Highly demanded services</h1>
+
+    <section class="container services  my-5  ">
+
+        <div class="my-5  pb-5 servicecontent row d-flex align-items-center justify-content-center">
+            <div  class="col-md-2 servicecard  bg-white  mx-2" onclick="showservices(`1`,this)">
+                <div class="icons rounded-circle bg-warning position-absolute d-flex justify-content-center align-items-center" >
+                <i class="elecicon  fa-solid fa-bolt-lightning "></i>
+                </div>
+                <h3 class="mb-3">Electrician</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+            <div class="col-md-2 servicecard  bg-white mx-2 " onclick="showservices('2',this)">
+                <div class="icons rounded-circle bg-warning position-absolute d-flex justify-content-center align-items-center" >
+                <i class="fa-solid fa-faucet-drip"></i>
+                </div>
+                <h3 class="mb-3">Plumber</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+            <div class="col-md-2  servicecard bg-white mx-2 " onclick="showservices(`3`,this)">
+                <div class="icons rounded-circle bg-warning position-absolute d-flex justify-content-center align-items-center" >
+                <i class="fa-solid fa-hammer"></i>
+                </div>
+                <h3 class="mb-3">Carpenter</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+            <div class="col-md-2 servicecard  bg-white mx-2 " onclick="showservices(`4`,this)">
+                <div class="icons rounded-circle bg-warning position-absolute d-flex justify-content-center align-items-center" >
+                <i class="fa-solid fa-wind"></i>
+                </div>
+                <h3 class="mb-3">Air-Conditioner</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            </div>
+        </div>
+    <div class="aboutus text-white py-5 my-5 d-flex">
+        <div class="w-50 text-left ml-5">
+            <h3 class="m-5">ABOUT US</h3>
+            <h1 class="m-5"> 
+                We work at all scales and in all sectors.
+            </h1>
+            <h5 class="m-5">
+                We create transformative cultural, corporate, residential and other spaces that work in synchronicity with their surroundings
+            </h5>
+        </div>
+        <div class="w-50 text-left my-4">
+            <h3 class="m-3">The future of how we live, work and play</h3>
+            <p class="m-3">
+                Sample text. Click to select the text box.
+                Click again or double click to start editing the text. </p>
+            <h2 class="m-3"> 
+                Look toward the future
+            </h2>
+            <p class="m-3">
+            Sample text. Click to select the text box.
+            Click again or double click to start editing the text. </p>
+            <button class="btn btn-warning rounded m-3"> learn more</button>
+        </div>
+    </div>
+    </section>
+    <footer class=" mt-5 ">
+    <div class="footerlogo text-center pt-3  ">
+        <a href=""><img class="logo" src="images/logo_1.png" alt="Logo"></a>
+    </div>
+    <div class="footercontent overflow-hidden px-5">
+        <div class="row d-flex justify-content-around align-items-around">
+            <div class="col-md-3 pl-5 ">
+                <h5>Contact Info</h5>
+                <p>1650 Lombard Street,<br>
+                San Francisco, CA 94123</p>
+                <p>+1 (415) 876-3250<br>
+                    [email protected]</p>
+            </div>
+            <div class="col-md-3  ">
+                <h5>Useful Links</h5>
+                <ul class="list-unstyled">
+                    <li>Support</li>
+                    <li>Privacy Policy</li>
+                    <li> Terms & Conditions </li>
+                    <li>Affilate Program</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-md-3 pr-5 ">
+                <h5>Recent Posts</h5>
+                <ul class="list-unstyled">
+                    <li>Sunset in Venice</li>
+                    <li>Aerial View of Village</li>
+                    <li> Lighted Concrete City </li>
+                    <li>The Little Ghost</li>
+                    <li>oyal Oats ft. Waldo</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

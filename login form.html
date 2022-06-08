@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="images/logo_1.png">
+    
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <script src="https://kit.fontawesome.com/ab9ed563bc.js" crossorigin="anonymous"></script>  
+   <script src="js/login.js"></script>
+</head>
+<bod>
+  
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+    <form class="Login_Container  p-5">
+        <h3 class="text-center pb-5">Login</h3>
+        <div class="client_details">
+          <div class="form-group m-3">
+            <label for="exampleInputusername"> User Name</label>
+            <input type="text" class="form-control" id="username" aria-describedby="phoneHelp" placeholder="Enter you username">
+            <div id="invalid"></div>
+          </div>
+          <div class="form-group m-3">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <div id="invalid"></div>
+          </div>
+        </div>
+        <div id="invalid"></div>
+
+
+      <div class="input-group m-3 selectinput  ">
+        <div class="input-group-prepend ">
+          <label class="input-group-text" for="inputGroupSelect01">User Type...</label>
+        </div>
+        <select class="custom-select w-50" id="userType">
+          <option selected name="User" >Choose </option>
+          <option  name="User" value="1">User</option>
+          <option name="Technician" value="2">Technician</option>
+        </select>
+      </div>
+        <div class="m-3">
+        <div class="form-check  py-3">
+          <input type="checkbox" class="form-check-input" id="Remember me">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+         <button type="submit" class="btn btn-primary text-white" id ="Login" onclick="check()">Login</button>
+         </div>
+      </form>
+    </div>
+
+    </body>
+
+</html>
